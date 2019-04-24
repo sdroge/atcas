@@ -1,0 +1,746 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- Remember, that top line is not really a tag.     It is a processing instruction that tells the computer that this is an XML file     and that it should be validated against a schema online at the TEI web site.-->
+<TEI xml:id="atkinsonscasket.xml" xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Atkinson's Casket (selections)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                <date>2019</date>
+                <availability>
+                    <p>This file is freely distributed and licensed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 3.0 Unported License</p>
+                </availability>
+            </publicationStmt>
+           <!-- <notesStmt>
+                <!-\- <note type="project">This file was produced for English 478/878:Digital Archives and
+                    Editions, Department of English, University of Nebraska-Lincoln, Spring
+                    2019.</note>-\->
+            </notesStmt>-->
+            <sourceDesc>
+                <bibl>
+                    <title level="a">Atkinson's Casket</title>
+                    <publisher>Samuel C. Atkinson</publisher>
+                    <date when="1933">1933</date>
+                    <pubPlace>Philadelphia, PA, USA.</pubPlace>
+                    <note>Other editions are titled simply "The Casket," but this particular edition
+                        is named after the publisher. The subtitle reads, "Flowers of Literature,
+                        Wit, and Sentiment.</note>
+                    <note>WE CAN PLACE INTRODUCTORY INFO HERE</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson type="referenced">
+                    <person/>
+
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!--<revisionDesc>
+             <change when="20190214">
+               <name>Simone Droge</name>Initial encoding of TEI header</change>
+        </revisionDesc>-->
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" n="1">
+                <head type="title">To a Lady and Her Miniature</head>
+
+                <p>There is one spot to my memory dear,<lb/>Would that it were as dear to
+                    thine&#8211;<lb/>It is that spot where first I clasped<lb/>Thine own fair hand
+                    in mine.</p>
+                <p>It is a spot o'er which is cast<lb/>Rememberance saddened by my
+                    tears&#8211;<lb/>One sunny spot&#8211;the first&#8211;the last&#8211;<lb/>Amidst
+                    the waste of blighted years.</p>
+                <p>It is that spot where first I told thee,<lb/>The deep, pure love my bosom
+                    felt;<lb/>Thou did'st not then regard me coldly,<lb/>But smiled upon me as I
+                    knelt.</p>
+                <p>Now, broken by thy thoughtless hand,<lb/>The spells thy love once round me
+                    threw,<lb/>Have passed the pictures, traced in sand&#8211;<lb/>Like summer
+                    clouds, or morning dew.</p>
+                <closer><signed>W. M.</signed></closer>
+            </div>
+            <pb facs="Medusa1.jpg"/>
+            <div type="story" n="1">
+                <head type="title">Medusa.</head>
+                <p>An intelligent physician of Philadelphia<note type="editorial">Philadelphia,
+                        Pennsylvania, United States</note> has furnished the best account of the
+                    Medusa, an order of animated beings but rarely described. We copy his account,
+                    which will be found highly interesting and graphic.</p>
+                <p>Those who have sought relief from the summer heats at Long Branch or Cape May,
+                    have probably noticed, in their ramblings along the beach, certain gelatinous
+                    transparent masses deposited by the receding tide on the sands. They resemble
+                    very large plano-convex lenses, and are devoid of colour except in a few minute
+                    points, which appear like grains of yellow sand, or the eggs of some shells
+                    embedded in their substance. This has led many to consider them as the spawn of
+                    some marine animal.</p>
+                <p> If one of these jellies be placed in a tub of brine immediately after it reaches
+                    the shore, the observer will be surprised to find it possessed of animation. The
+                    superior, or convex part, will expand like the top of an umbrella; and from its
+                    under surface several fringed and leaf-like membranes will be developed. The
+                    remains of numerous threads, or tendrils, will float out form the margin of the
+                    umbrella, following the motions of the animal as it swims around the tub. These
+                    threads are often several feel in length before they are broken by the sand;
+                    they are probably employed both to entice and to secure the prey, and they
+                    produce a sharp stinging sensation, when applied to the skin. It is from the
+                    appearance and offensive power of these last organs, that seamen have given the
+                    animal the title of the sea-nettle, and naturalists the generic name Medusa.</p>
+                <p>I have offered this rude description of the Medusa, as a familiar example of the
+                    class of animated beings, which are the subjects of the following remarks. They
+                    are all alike gelatinous and transparent, and many of them melt and flow away
+                    when exposed in the air to the direct rays of the sun.</p>
+                <p>Of all the tribes of Molluscae which are scattered over every part of the ocean,
+                    the most splendid and best known is the Portuguese man-of-war (physalia). This
+                    is an oblon animated sack of air, elongated at one extremity into a conical
+                    neck, and surmounted by a membranous expansion running nearly the whole length
+                    of the body, and rising above into a semicircular sail, which can be expanded or
+                    contracted to a considerable extent, at the pleasure of the animal. From beneath
+                    the body are suspended from ten to fifty or more little tubes, from half an inch
+                    to an inch in length, open at the lower extremity, and formed like the flower of
+                    the blue bottle. These have been regarded as temporary receptacles for food,
+                    like the first stomach of cattle; but as the animal is destitute of any visible
+                    mouth or alimentary canal, and as I have frequently seen fish in their cavities
+                    apparently half digested, I cannot but consider them as proper stomachs; nor
+                    indeed is it a greater paradox in Zoology that an animal should possess many
+                    independent stomachs, than that the strange carnivorous vegetable, saricinea,
+                    should make use of its leaves apparently for a similar purpose.</p>
+                <p>From the centre of this group of stomachs, depends a little cord, never exceeding
+                    the fourth of an inch in thickness, and often forty times as long as the
+                    body.</p>
+                <p>The size of the Portuguese man-of-war varies from half an inch to six inches in
+                    length. When it is in motion, the sail is accommodated to the force of the
+                    breeze, and the elongated neck is curved upwards, giving to the animal a form
+                    strongly resembling the little glass swans which we sometimes see swimming in
+                    goblets.</p>
+                <p>It is not the form, however, which constitutes the chief beauty of this little
+                    navigator. The lower parts of the body and neck are devoid of colour, except a
+                    faint iridescence in reflected lights; and they are so perfectly transparent,
+                    that the finest print is not obscured when viewed through them. The black
+                    becomes gradually tinged, as we ascend, with the finest and most delicate blue
+                    that can be imagined; the base of the scale equates the purest sky in the depth
+                    and beauty of tint; the summit is of the most splendid red, and the central part
+                    is shaded by a gradual admixture of these colours, through all the intermediate
+                    grades of purples. Drawn as it were upon a groundwork of mist, the tints have an
+                    aerial softness far beyond the reach of art, and warranting the assertion, that
+                    they are often dressed in beauty before which the lily would fade, and the rose
+                    hide its blushes, and producing some of the sublime phenomena when have
+                    astonished the philosopher.</p>
+                <p>The group of stomachs is less transparent, and although the hue is the same as
+                    that of the back, they are on this account incomparably less elegant. By their
+                    weight and form they fill the double office of a keel and ballast, while the
+                    cord-like appendage, which floats cut for yards behind, is called by seamen the
+                    cable.</p>
+                <p>The mode in which the animal secures his prey, has been a subject of much
+                    speculation; for the fish and crabs that are frequently found within the little
+                    tubes are often large enough to tear them in pieces, could they retain their
+                    natural vigour during the contest. Deceived by teh extreme pain which is felt
+                    when the cable is brought in contact with the back of the hand, naturalists have
+                    concluded, I think too hastily, that this organ secretes a poisonous or acrid
+                    fluid, by which it benumbs any unfortunate fish, or other animal, that ventures
+                    within its toils, allured by the hope of making a meal upon what, in its
+                    ignorance, it has mistaken for a worm. The secret will be better explained by a
+                    more careful examination of the organ itself. The cord is composed of a narrow
+                    layer of contractile fibres, scarcely visible when relaxed, on account of its
+                    transparency. If the animal be large, this layer of fibres will sometimes extend
+                    itself to the length of four or five yards. A spiral line of blue bead-like
+                    bodies, less than the head of a pin, revolves around the cable from end to end,
+                    and under the microscope, these beads appear covered with minute prickles, so
+                    hard and sharp that they will readily enter the substance of wood, adhering with
+                    such pertinacity that the cord can rarely be detached without breaking.</p>
+                <p>It is to those prickles that the man-of-war owes its power of destroying animals
+                    which are its superiors in strength and activity. When anything becomes impaled
+                    upon the cord, the contractile fibres are called into action, and rapidly shrink
+                    from many feet in length to less than the same number of inches, bringing the
+                    prey within reach of the little tubes, by one of which it is immediately
+                    swallowed.</p>
+                <p> This weapon, so insignificant in appearance, is yet sufficiently formidable even
+                    to man. I had once the misfortune to become entangled with the cable of a very
+                    large man-of-war, while swimming in the open ocean, and amply did it avence its
+                    fellows, who now sleep in my cabinet robbed at once of life and beauty. The pain
+                    which it inflicted was almost insupportable for some time, nor did it entirely
+                    cease for twenty-four hours. </p>
+                <p>I might now proceed to describe the many analogous animals scarcely inferior in
+                    interest, but it is time to notice some individuals of another tribe, residing
+                    beneath the surface, and therefore less generally known. </p>
+                <p>The grandest of these is the beroe. In size and form it precisely resembles a
+                    purse, the mouth, or orifice, answering to one of the modern metallic clasps. It
+                    is perfectly transparent; and in order to distinguish its filmy outlines, it is
+                    necessary to place it in a tumbler of brine held between the observer and the
+                    light. In certain directions, the whole body appears faintly iridescent; but
+                    there are several longitudinal narrow lines which reflect the full rich tints of
+                    the rainbow in the most vivid manner, forever varying and mingling the hues,
+                    even while the animal remains at rest. Under the microscope, these lines display
+                    a succession of innumerable coloured scales, or minute fins, which are kept
+                    unceasingly in motion, thus producing the play of colours by continually
+                    changing the angle of reflection. </p>
+                <p>The movements of the beroe are generally retrograde, and are not aided by the
+                    coloured scales, but depend upon the alternate dilation and contraction of the
+                    mouth. The lips are never perfectly closed, and the little fish and shrimps that
+                    play around them are continually entering and leaving them at pleasure. The
+                    animal is dependent for its food upon such semi-animated substances as it draws
+                    within its grasp by moving slowly backwards in the water, and retains them in
+                    consequence of their own feebleness and inability to escape the weakest of
+                    snares.</p>
+                <p>Another tribe of the sea purses, (Salpa,) though much smaller than the beroe, are
+                    more complex in structure, and possess a higher interest in consequence of the
+                    singular habits of some of the species. They are double sacks, resembling the
+                    beroe in general form, but destitute of iridescence. The outer sack, or mantle,
+                    rarely exceeds an inch in length, and is commonly about half as wide. The inner
+                    sack is much smaller, and the interval between these forms a cavity for the
+                    water which they breathe, and for some of the viscera. Their visible organs are,
+                    a transparent heart, which can only be seen in the strongest light; a splendid
+                    double row of whitish bead-like cavities, forming a spiral line near one
+                    extremity, and supposed to be either lungs or ovaries; numerous broad flat
+                    pearly muscles,</p>
+            </div>
+            <pb/>
+            <div type="poem">
+                <head type="title">Jeannie Morrison - Romantic Tale</head>
+                <p><l>I’ve wandered east, I’ve wandered west,</l>
+                    <l> Through mony a weary way: </l>
+                    <l>But never, never can forget </l>
+                    <l>The luve o’ life’s young day! </l>
+                    <l>The fire that’s blawn on Beltane e’en, </l>
+                    <l> May weel be black gin Yule; </l>
+                    <l>But blacker fa’ awaits the heart </l>
+                    <l> Where first fond luve grows cule. </l>
+                </p>
+                <p><l>O dear, dear Jennie Morrison, </l>
+                    <l>The thoehts o’ bygane years </l>
+                    <l>Still fling their shadows awer my path, </l>
+                    <l> And blind my een wi’ tears; </l>
+                    <l>They blind my een wi’ saut saut tears, </l>
+                    <l> And sair and sick I pine, </l>
+                    <l>As memory idly summons up </l>
+                    <l> The blithe blinks o’ langsyne. </l></p>
+                <p>
+                    <l>‘Twas then we luvit ilk ither weel, </l>
+                    <l> ‘Twas then we twa did part; </l>
+                    <l>Sweet time - sad time! twa bairns at scule </l>
+                    <l> Twa bairns and but ae heart! </l>
+                    <l>‘Twas then we sat on ae laigh bink, </l>
+                    <l> To leir ilk ither lear; </l>
+                    <l> And tones, and looks, and smiles were shed, </l>
+                    <l>Remember’d evermair. </l></p>
+                <p>
+                    <l>I wonder, Jeanie, aften yet, </l>
+                    <l> When sittin on that bink, </l>
+                    <l>Cheek touchin’ cheek, loof lock’d in loof, </l>
+                    <l> What our wee heads could think? </l>
+                    <l>When baith bent doun ower ae braid page, </l>
+                    <l> Wi’ae buik on our knee, </l>
+                    <l>Thy lips were on thy lesson, but </l>
+                    <l> My lesson was in thee. </l></p>
+                <p>
+                    <l>Oh, mind ye how we hung our heads, </l>
+                    <l> How cheeks brent red wi’ shame, </l>
+                    <l>Whene’er the scule-weans laughin said, </l>
+                    <l> We cleek’d thegither hame? </l>
+                    <l>And mind ye o’ the Saturdays, </l>
+                    <l>(The scule then skail’t at noon,) </l>
+                    <l>When we ran aff to speel the brues- </l>
+                    <l> The broomy braes o’ June? </l>
+                </p>
+
+                <p><l>My head rins round and round about, </l>
+                    <l>My heart flows like a sea, </l>
+                    <l>As ane by ane the thochts rush back, </l>
+                    <l> O’ scule-time and o’ thee, </l>
+                    <l>Oh, mornin’ life! oh, mornin’ luve! </l>
+                    <l> Oh lichtsome days and lang, </l>
+                    <l>When hinnied hopes around our hearts </l>
+                    <l> Like simmer blossoms sprang. </l></p>
+                <p><l>Oh mind ye, luve, how aft we left </l>
+                    <l> The deavin’ dinsome toun, </l>
+                    <l>To wander by the green burnside, </l>
+                    <l> And hear its water’s croon? </l>
+                    <l>The simmer leaves hung ower our heads, </l>
+                    <l> The flowers burst round our feet, </l>
+                    <l>And in the gloamin’ o’ the wood, </l>
+                    <l> The throssil whusslit sweet; </l></p>
+                <p><l>The throssil whusslit in the wood, </l>
+                    <l> The burn sang to the trees, </l>
+                    <l>And we with Nature’s heart in tune, </l>
+                    <l> Concerted harmonies; </l>
+                    <l>And on the knowe abune the burn,</l>
+                    <l> For hours thegither sat </l>
+                    <l>In the silentness o’ joy, till baith </l>
+                    <l> Wi’ very gladness grat. </l></p>
+                <p><l>Ay, ay, dear Jeanie Morrison, </l>
+                    <l> Tears trinkled doun your cheek, </l>
+                    <l>Like dew-beads on a rose, yet nane </l>
+                    <l> Had ony power to speak! </l>
+                    <l>That was a time, a blessed time, </l>
+                    <l> When hearts were fresh and young, </l>
+                    <l>When freely gush’d all feelings forth, </l>
+                    <l> Unsyllabled - unsung! </l></p>
+                <p><l>I marvel, Jeanie Morrison, </l>
+                    <l> Gin I hae been to thee </l>
+                    <l>As closely twined wi’ earlieast thochts, </l>
+                    <l> As ye hae been to me? </l>
+                    <l>Oh! tell me gin their music fills </l>
+                    <l> Thine ear as it does mine; </l>
+                    <l>Oh! say gin e’er your heart grows grit </l>
+                    <l> Wi’ dreamings o’ langsyne? </l></p>
+                <p><l>I’ve wander’d east, I’ve wander’d west, </l>
+                    <l> I’ve borne a weary lot; </l>
+                    <l>But in my wand’rings far or near. </l>
+                    <l> Ye never were forgot. </l>
+                    <l>The fount that first burst frae this heart, </l>
+                    <l> Still travels on its way; </l>
+                    <l>And channels deeper as it rins, </l>
+                    <l> The luve o’ lifes’ young day. </l></p>
+                <l>O dear, dear Jeanie Morrison, </l>
+                <l> Since we were sindered yaung, </l>
+                <l>I’ve never seen your face, nor heard </l>
+                <l> The music o’ your tongue; </l>
+                <l>But I could hug all wretchedness, </l>
+                <l> And happy could I die, </l>
+                <l>Did I but ken your heart still dream’d </l>
+                <l> O’ bygane days and me!</l>
+                <signed><emph rend="italics">Motherwell.</emph></signed>
+            </div>
+            <pb/>
+            <div type="story">
+                <head type="title">BYRON’S OPINION OF BEAUTY.</head>
+                <p>I do not talk of mere beauty (continued Byron) of feature or complexion, but of
+                    expression, that looking out of the soul through the eyes, which, in my opinion,
+                    constitutes true beauty. Women have been pointed out to me as beautiful, who
+                    never could have interested my feelings from their want of countenance; and
+                    others, who were little remarked, have struck me as being captivating, from the
+                    force of countenance. A woman’s face ought to be like an April day - susceptible
+                    of change and variety; but sunshine should often gleam over it, to replace the
+                    clouds and showers that may obscure its lustre, which, poetical description
+                    apart, (said Byron,) in sober prose means, that good-humoured smiles ought to be
+                    ready to chase away the expression of pensiveness or care that sentiment or
+                    earthly ill calls forth. Women were meant to be the exciters of all that is its
+                    finest in our natures, and the soothers of all that is turbulent and harsh. Of
+                    what use, then, can a handsome automaton be, after one has got acquainted with a
+                    face that knows no change, though it causes many? This is a style of looks that
+                    I could not bare the sight of for a week, and yet such are the looks that pass
+                    in society, for pretty, handsome, and beautiful. - Monthly Magazine. </p>
+            </div>
+            <pb/>
+            <div type="story">
+                <head type="title">Written For a Lady’s Album.</head>
+                <p> As onward press’d by gentle breeze, The ship glides proudly o’er the seas, And
+                    leaves no path or trace behind, So heedless pass with rapid flight, And sink in
+                    dark oblivion’s night, The fleeting visions of the mind.</p>
+
+                <p>But when the storms in fury sweep The bosom of the raging deep, And sink the ship
+                    beneath the main; Still may some plank float on to show The wreck that’s buried
+                    far below The only vestige of the slain.</p>
+
+                <p> And thus perchance in after years, When joys and griefs, and smiles and tears,
+                    Have almost hid me from thy view; E’en then this page may haply chance To claim
+                    from thee a passing glance, And I shall be remembered too. </p>
+                <p>S. Harper’s Ferry, Va., Oct, 24th 1832, </p>
+            </div>
+            <pb/>
+            <div type="story">
+                <head type="title">Fashionable Vulgarities in New York</head>
+                <p>Ostentatious dinners, where guests are bored to death with a profusion of
+                    superfluous dishes, superfluous bottles, superfluous glasses, and superfluous
+                    cut glass, and lumbering finery of all sorts, where the guests are invited and
+                    estimated on the score of their purses; where the conversation consists of
+                    dissertations on wines, and comparisons of the respective excellence of each,
+                    and where the hired cook, after serving up the dishes, takes his place as a
+                    waiter to eke out the scene of ostentation. </p>
+                <p>Ostentatious parties, where ladies dress to fanaticism, and young gentlemen wear
+                    black stocks and speckled stockings, where the finery is all borrowed or hired;
+                    where you see the same hired waiters, the same great punch bowl, the same
+                    everlasting lamps and the same desperate attempts at outdoing their rivals of
+                    the ton; where the company is rated according to the Wall street standard and
+                    the party according to the quantity of champaigne and pickled oysters. </p>
+                <p>Married ladies dressed for a walk as if to an assembly, with gowns, the extreme
+                    breadth and redundancy of whose folds are desperately contrasted with their
+                    length, leading by the hand the little children so overloaded with finery that
+                    they have no room to grow bigger, and never get to be more than four feet and a
+                    half high. </p>
+                <p>An affectation of contempt for every thing American, and of admiration for every
+                    thing foreign; an affection of taste for Italian music without any taste; an
+                    affectation of literature without any literature; an affectation of fashionable
+                    manners without any manners; and a violent desire to be elegant without knowing
+                    exactly how to go about it. Indeed no rusticity of manners is half so vulgar in
+                    the eyes of people of real refinement as affectation.</p>
+                <signed><emph rend="italics">-N.Y.Cour. and Enq.</emph></signed>
+            </div>
+            <pb/>
+            <div type="poem">
+                <head type="title">Mermaids Cave</head>
+                <note>SUNG WITH RAPTUROUS APPLAUSE by MISS HUGHES.<lb/>Poetry by Miss Gould, of
+                    Massachusetts.<lb/>Music, by C.E.HORN.</note>
+                <p><l>Come, mariner, down in the deep with me,</l>
+                    <l> And hide thee under the wave;</l>
+                    <l>For I have a bed of coral for thee.</l>
+                    <l> And quiet and sound shall thy slumber be,</l>
+                    <l><addName>In a cell of the Mermaid’s Cave.</addName><note type="editorial">A
+                            common oral tale known by mariner men in the 18th and 19th century was a
+                            cautionary story of beautiful women-like creatures that would sing
+                            tunes, such as this one, to persuade men undershore. Once captured, the
+                            tale tells that these sailors would be brought down to the creature’s
+                            “cave” indefinitely. </note></l></p>
+                <p><l> And she who is waiting with cheek so pale,</l>
+                    <l> At the tempest and ocean’s roar,</l>
+                    <l> And weeps when she hears the menacing gale,</l>
+                    <l> Or sign to behold her mariner’ sail</l>
+                    <l>Come whitening up to the shore&#8211;</l>
+                </p>
+                <p>
+                    <l>She has not long to linger for thee,</l>
+                    <l> Her sorrow will soon be o’er;</l>
+                    <l> For the cord shall be broken, the prisoner free,</l>
+                    <l>Her eyes shall close, and her dreams will be</l>
+                    <l>So sweet she will wake no more.</l>
+                </p>
+            </div>
+            <pb/>
+            <div type="poem">
+                <head type="title">On visiting (with my Mother) my Sister's Grave</head>
+                <p><l>Sister, - though thy body lies,</l>
+                    <l> Crumbling here beneath the ground;</l>
+                    <l>Thy Soul - (ere this) has reach’d the skies,</l>
+                    <l>And the dear Redeemer found.</l></p>
+
+                <p>
+                    <l>Sister dost thou us behold,</l>
+                    <l>From thy holy dwelling-place?</l>
+                    <l> Dost thou tread the streets of gold?</l>
+                    <l> Dost thou gaze on Jesus face?</l>
+                    <l>Oh! what rapture must thine,</l>
+                    <l> In the presence of thy God! -</l>
+                    <l> Let us cease then to repine,</l>
+                    <l> Let us meekly kiss the rod.</l></p>
+
+                <p><l>Daughter - we do hope to meet,</l>
+                    <l> With thee, in the courts above;</l>
+                    <l>With thee to worship - at his feet, -</l>
+                    <l> Our <emph rend="italics">Redeemer! God of love!</emph></l></p>
+                <signed>C.F.D.</signed>
+            </div>
+
+            <pb facs="femaleed1.jpg"/>
+            <div type="story">
+                <head type="title">FEMALE EDUCATION.</head>
+                <p>Yet the best blood by learning is refined, And virtue arms the solid mind; Whilst
+                    vice will stain the noblest race, And the paternal stamp efface. -
+                    OLDISWORTH.</p>
+                <p>The inquiry, “should females receive as complete an education as males?” has been
+                    the source of much speculation. It is an inquiry, the settlement of which
+                    promises a signal triumph either to reason or bigotry. In former times, when
+                    knowledge was less extensively diffused - when every useful and brilliant
+                    production of genius lay unknown in the cloisters of ecclesiastical priesthood -
+                    when the paeans of Sappho<note type="editorial">Sappho was an ancient Greek poet
+                        who was known to be one of the greatest lyricist throughout time.</note> and
+                    the elegies of Alcaeus were no longer sung - when the voice of Thalia was
+                    hushed, and the harp of Clio hung mute and lifeless upon the willow - and when
+                    the achievements of the hero and the martyrdom of the Christian, could only be
+                    perpetuated by the legends of tradition - woman, lovely woman</p>
+                <p>“Was doomed to slave of man to toil, Yoked with the beasts and fettered
+                    soil.”</p>
+                <p>But when the sun of knowledge began to diffuse his rays over the semi-barbarians
+                    of Europe - dissipating the darkness of ignorance which covered them, and the
+                    religion of the blessed Saviour began to be more extensively taught - her
+                    condition was improved, and the smiles of her hope, her peace, and approaching
+                    happiness, began to mingle with those of her beauty.</p>
+                <p>With what reasoning are the enemies of female education able to satisfy their
+                    minds? Some advance as an argument - an objection, carrying prejudice and
+                    absurdity on its face - viz.: “The inability of woman - her want of mental
+                    strength and influence, which are necessary to ensure success and usefulness.”
+                    Those who take this position are opposing analog, past experience - the
+                    fountains of experimental, unerring knowledge. Where are the sublime and useful
+                    productions of Edgeworth? Where are the trophies of the genius of Opie, of
+                    Hemans, of Hamilton, of De Stael and More? To borrow the words of Story, “man
+                    can no longer boast of exclusive domination in authorship. He has rivals or
+                    allies in almost every department of science, and they are to be found among
+                    those whose elegance of manners and blamelessness of life, command his respect
+                    as much as their talents excite his admiration. Who is there that does not
+                    contemplate with enthusiasm the precious fragments of Elizabeth Smith, the
+                    venerable learning of Elizabeth Carter, the elevated piety of Hannah More, the
+                    persuasive sense of Mrs. Barbauld, the elegant memoirs of her accompliced niece,
+                    the bewitching pictures of Madame D’Arblay, the vivid, picturesque, and terrific
+                    imagery of Mrs. Radcliffe, the glowing poetry of Mrs. Hemans, the matchless wit,
+                    the inexhaustible conversations, the fine character painting, the practical
+                    instructions of Miss Edgeworth, the great Known, standing in her department by
+                    the side of the great Unknown!”</p>
+                <p>The same objection, which has been answered, might be urged against the general
+                    education of males. How many are their among the males equally destitute of
+                    strength of mind and those qualities which are necessary to command admiration!
+                    The reason why there are more poets, orators, and philosophers, among men, is
+                    because their education is an object of more care and attention. This education,
+                    which could be the means of great good, is often, very often, perverted, and
+                    applied to the more vicious and baneful uses. There are many, who, carrying with
+                    them through life and the appellation of learned, gain an influence over the
+                    minds of their contemporaries, which the glaring absurdity and vicious doctrines
+                    with which their writings abound, are unable to erase when the hand of mortality
+                    shall have seized them, and their bodies shall have crumbled into dust. This is
+                    not the result of female education. Naturally chaste, modest, and unassuming -
+                    having been taught when young that the beauty and worth of woman consist in
+                    those qualities, improved and strengthened by polite literature, she aspires
+                    after no higher honor than to be a source of pleasure and happiness to those
+                    with whom she is connected, and a means of enjoyment to man, the partner of her
+                    bosom - the author of her cares. She labors not for the fleeting honors of time,
+                    but the moral tendency of her writings exhibits that they seek after a crown of
+                    glory beyond the grave - “a crown, at the sight of which the diadems of the
+                    Caears would sink to weeds.” Who, then can deny but what the literary
+                    productions of women, (when influenced by such motives,) will be beneficial to
+                    the males as well as their own sex? It is reasonable to believe that Paine would
+                    have destroyed his own happiness, with that of many of his fellow creatures, had
+                    he been blessed with a mother endowed with these heavenly feelings, and these
+                    precious accomplishments. Hume and Voltaire, too, might perhaps (after living
+                    long and useful lives) have sunk to the tomb, with the same feelings which
+                    accompany the Christian in that frying hour - bearing with them their crowns of
+                    bliss, and leaving behind the disciples of their usefulness to pay the last
+                    tribute to departed greatness.</p>
+                <p>The benefit originating from female productions is more plainly seen in the
+                    effect they have on the young. The tender and tractable mind is easily
+                    influenced by those writings, which are intended not simply to instruct, but
+                    also to interest. It is argued by some, that the many vicious and obscene books
+                    met with in the higher branches of literature, are calculated to have an
+                    injurious effect on the morals of females; and for this reason there are many
+                    who even go so far as to say, that their education should be restricted to
+                    reading and writing, etc.; or should their education be prolonged or extended,
+                    they should be robbed of every literary production not immediately connected
+                    with their domestic affairs. That the reading of vicious books is calculated to
+                    injure the morals, is what no one will pretend to deny; but that females, with
+                    proper care, are much exposed to this evil, is much to be doubted. It is
+                    supposed that, in the first place, parents endeavour to keep such books out of
+                    reach of their children; and if this is not the case, the parents neglect the
+                    performance of their duty. And if the character of females, when grown, is not
+                    composed of modesty, chastity, affection, and every other virtue, we conclude
+                    that the reason is, their parents were themselves destitute of the blessings of
+                    polite literature; and had this not been the case, such would have been the
+                    character of their children! Besides, the time is fast approaching when every
+                    production calculated to injure the morals, will be excluded from the libraries
+                    of the polite and patriotic. Great revolutions have taken place during the last
+                    century, in relation to the worth of the productions of mind, as well as the
+                    actions of the body. Mental struggles must have an umpire, as well as bodily;
+                    and he who aspires after Tully’s “aliquid immensum que infinitum,” in oratory,
+                    the “magister boni” of Horace, or the “sana mens in sano corpore” of Virgil,
+                    must consent to submit to the scrutiny of the present, as well as hope for the
+                    generosity of futurity. The empire of the mind will be triumphant. It must be
+                    obvious, then, to every man, that such objections vanish when considerations
+                    like these are fully examined.</p>
+                <p>One of the greatest pleasures which man enjoys is conversation: and the pleasure
+                    of conversation is certainly increased by an increase of knowledge. And why not
+                    employ every means which are justifiable for the purpose of increasing the
+                    pleasure of those whose cares are great, and whose worth (experience proves) has
+                    never been duly appreciated? But, alas! such arguments as these are calculated
+                    to have but little influence on those who inherit the cruelty of their fathers,
+                    and who are always ready to resort to any means for destroying every vestige, of
+                    justice and prostituting every call of humanity. And if it be granted that every
+                    pursuit of females should be composed of innocence, virtue, and pleasure, what
+                    employment is more applicable than the pursuit of literature? The best way to
+                    destroy bice, is to place before it something more fascinating. Lay before
+                    females, when young, something worth the application of their strongest
+                    faculties - the employment of all their time - and there will be formed a more
+                    impenetrable, a more insurmountable barrier against vice, than all the
+                    exhortations which may be given by the philosophic tongue in after life. In
+                    fact, this is necessary to produce that perfection which Cowper has expressed in
+                    a few beautiful lines -</p>
+                <l>“Her eye is meek and gentle, and a smile </l>
+                <l>Plays on her lips; and in her speech is heard</l>
+                <l>Paternal sweetness, dignity, and love.</l>
+                <l>The occupation dearest to her heart</l>
+                <l>Is to encourage goodness.”</l>
+                <p>But the consideration which ought to have most influence in the examination of
+                    this subject, remains yet to be mentioned. It is this - “if females were better
+                    educated, the education of males would be improved,” - new lustré would be added
+                    to their public and private careers, and new energy to their counsels. Take, for
+                    instance, a man of high standing - a prince, a general, or any man whose
+                    influence promises to be great - what would be the effect of his influence, if
+                    destitute of moral instruction - destitute of maternal admonitions -
+                    unacquainted with the solicitations of paternal affection, and deprived of the
+                    blessings of learning? He spreads his influence - injurious and destructive - to
+                    the most distant corners of his country. Thousands feel this influence;
+                    thousands sink beneath the stroke of oppression. The empire of force is fast
+                    fading from the face of the earth. The time is rapidly approaching when the
+                    chains of tyranny will be broken - broken so hat no artist will be found
+                    ingenious enough to mend them; and the spirit of free principle, of universal
+                    liberty, will be seen ushering from the shades of darkness, the abodes of
+                    ministerial oppression! Yes, the time is fast approaching when physical power
+                    will be no longer required to lead man to the goal of prosperity. There will be
+                    a mental government - a government of reason. All nature proves it.</p>
+                <p>Why is it, that man will resist to the last grasp the had of the oppressor? What
+                    is that for which man has been toiling from the time when he rose from his
+                    cradle in the west, until he reached these last limits of his wanderings? Is it
+                    a spirit which is leading him through morasses to the gibbet and the stake? Ask
+                    the ruins of Athens - go thunder these questions among the hills where once
+                    stood imperial Rome - the land of Brutus, the home of Cassius. Go ask the spirit
+                    which hovers over the plains of Marathon; go inquire of those who are still
+                    living monuments of our own glorious revolution, and an answer will be received
+                    which none can doubt. If, the, this is to be the result of the labors of the
+                    good and patriotic, are there not reasons why female education should be
+                    improved? We know that the influence of woman is great. To them is left the
+                    formation of the character; the turn of mind is always acquired from maternal
+                    admonition. It is the infancy of man, when resting on the knees of the mother,
+                    when those principles are implanted in his bosom, which, in after life, are to
+                    sway the sceptre of despotism, or lead him to the temple of fame. There are many
+                    striking examples of the influence of females over their husbands, and those
+                    with whom they may be connected. When Bonaparte had extended his arms over
+                    nearly the whole of Southern Europe, and had seen his colors flying triumphantly
+                    over the walls of the capitol of Egypt, it was woman - the accomplished
+                    Josephine - who added vigor to his arm by her counsels, and infused mercy in his
+                    bosom by her affectionate disposition. But though her influence was great, her
+                    sufferings were soon disregarded. Such were her qualities, that had her
+                    admonitions been listened to, had her sufferings been regarded, the conqueror of
+                    conquerors might have died among the “vine hills of his own dear France,”
+                    exulting in the triumph of liberty, the emancipation of Europe from civil and
+                    religious despotism. But, alas! when he turned a deaf ear to her entreaties, his
+                    honor, his power and happiness faded away like the dew drops of the morning. The
+                    influence of the female is strikingly exhibited in the education of our immortal
+                    Washington. The instructions which he received, when young, from his mother,
+                    were such as to enable him to lead our fathers through the doubtful period of
+                    ‘76 - overcome the powers of temptation, and after having lived “the first in
+                    war, the first in peace, and the first in the hearts of his countrymen,” to sink
+                    in peace to the tomb, honored with the appellation of <emph rend="italics"
+                        >“Father of his Country.”</emph></p>
+                <p>Such is the effect of female influence, and such the force of female
+                    accomplishments; and without these accomplishments, what would be the result of
+                    female trials and female admonition? Here would rise a Cromwell, with hands
+                    crimsoned with his country’s blood; there would be seen the car of a Caesar,
+                    driving swiftly over the “forbidden Rubicon.” Here a Tiberius, hastening with
+                    rapid strides to the goal of power; there a Sylla, trampling on the bodies of
+                    his murdered countrymen, and rejoicing at the fall of liberty! With mother and
+                    wife, gifted with all the accomplishments which polite literature, a due
+                    cultivation of the mind, can afford, how happy is man! But deprived of these
+                    -</p>
+                <l>“Oh, what is man? - a world without a sun.</l>
+                <l>And man, the hermit, sighed, till woman smiled.”</l>
+                <p>What could have been expected, but that her situation would have called forth the
+                    attention of men? But not so! For ages has she been regarded, not as the
+                    messenger of glad tidings, but the object of hatred and oppression. Compelled in
+                    some countries to toil with unceasing ardor in the bloom of youth, and linger
+                    out her latter days in poverty and neglect. But with all this cruelty, she still
+                    exclaims - </p>
+                <l>“Man, with all thy faults I love thee still.” </l>
+                <p>Unceasing in her love, uncorrupted in her morals, charitable in her affection -
+                    abroad a friend and a comforter, at home a source of pleasure and delight - who
+                    can not exclaim, with the genius of Moore:</p>
+                <l>“Oh, woman! whose form and whose soul,</l>
+                <l>Are the spell and the light of all we pursue!</l>
+                <l>Whether sunned in the tropics, or chilled at the pole,</l>
+                <l>If woman be there, there is happiness too!”</l>
+                <signed>Y.S.R.</signed>
+            </div>
+            <div type="poem">
+                <head type="title">The Mother's Decision.</head>
+                <note>By Mrs. H. M. Dodge.</note>
+                <lg>
+                    <l>Theirs was a melancholy pledge,</l>
+                    <l> A dark and bitter token,</l>
+                    <l>Of joys which never could return--</l>
+                    <l> Of hearts by sorrow broken!</l>
+                    <l>They gazed upon the seal of wo,</l>
+                    <l> With red and tearless eye,</l>
+                    <l>And bosoms throbbing deep and wild</l>
+                    <l> With speechless agony!</l>
+                </lg>
+                <lg>
+                    <l>Is this the gift? Aye, is this <emph rend="italics">all</emph></l>
+                    <l>`A <emph rend="italics">mother's heart</emph> could bring</l>
+                    <l>For her own cherished, <emph rend="italics">worshipp'd</emph>child--</l>
+                    <l> Its proudest offering?</l>
+                    <l>All--is it all?--a seal of wo--</l>
+                    <l> A stern command to part!</l>
+                    <l>Ah, mother, didst thou never weigh</l>
+                    <l> The treasures of the heart?</l>
+                </lg>
+                <lg>
+                    <l>Unhappy mother, wretched child, </l>
+                    <l> Your days of joy are o'er;</l>
+                    <l>Maternal pride and filial love</l>
+                    <l> Can never mingle more!</l>
+                    <l>That stern command, that dark decree,</l>
+                    <l>Has seal'd her gloomy fate;</l>
+                    <l>And Calvary's holy voice of love,</l>
+                    <l>Alone shall quell her hate.</l>
+                    <dateline><emph rend="italics">Philadelphia, June 20th, 1833.</emph></dateline>
+                </lg>
+            </div>
+            <div type="story">
+                <head type="title"><emph rend="caps">Perpetual Youth</emph></head>
+                <p>PERPETUAL YOUTH_.THOUGHT. 389 PERPETUAL YOUTH, that Miss Betsey had the skill to
+                    discover, the con. I l rely ews per, the death r " Mss stancy to preserve so da
+                    erous a secret ; and she had Eiizai';8, 8 1 In NIl he lllstory of this
+                    Singularinlii- her reward. She fiouried in eternal youth. But vidal was so
+                    extraordinary, t 4 h . at I cannot forbear like all great public benefactors,
+                    her motives and cha. communicating such portions of it to the ladies of my
+                    racier were misunderstood acquaintance, as come within my recollection. It has ,
+                    he memory was bits by execrated by the old maids ofrthe Old Dominic;- the
+                    advantage of being authentic, if not interesting_ fig . Even when alive she did
+                    not escape persecution. for the facts which I shall relate are notoriously true.
+                    I If you have ever stopped at the little old anterevolu. have, when a boy, seen
+                    very res ctable ladies of.my aunt 4b1gail's acquaintance, woriZethemselves up
+                    into tionary city ofA 1 011 your pilgrimage to Mount rfect agnew. in speaking of
+                    her. "She g;+°"§" said Vernon perhaps I can recall.her to your recollection, is
+                    35 Coldcream;"she powders,"observed is arch; by her mail, nghF,.pehpe1dtcular
+                    lotm,her tasteful B Chas a fal8e face," exclaimed Miss Looking-glass ; dress h .
+                    llik in ., er aug bue eye golden II :be seligin kid gloves," shouted ' er gr
+                    Miss Whalebone ; delicately tmilerclgcheek, coral lips, . gl is, goth, y e et
+                    herself' shrieked Miss Magnesia, 8 penally 1e3'l.', rounded neck, small handsome
+                    feet, slll8l " but her Ii " said Miss Vermillion ; " and her neck," waist,
+                    beautiful bust, graceful motion, perfect mouth, . said Masse fowderpmrz Here
+                    Miss Whalebone fell and-in sho n rt I have no doubt, you f fell in love with
+                    into hysterics, and Min Coldcream began w foam.at her. I think '1 saw you one do
+                    , standish upon New- the mouth; Miss Starch fainted. At laigth Mlm ton's steps,
+                    watching her little 8,tm as it lifted in and Looking.glass, after a lisle
+                    reflection, . . poke up; " l'm out, of the shows, on King-street, and heard you
+                    say determined," said she "to (ind lt out, l key-holes will she was more kea
+                    real sylph, than any thing you had serve my purpose; she shall come to my house
+                    and ever seen. take the blue room, and keep it afortnight; and t.hen,' Well,
+                    sir, if I had told you that this little fair was smd she, whiles buzz of
+                    applause went roundlhe room, sevemy.five years old, 8 3 °" would not have be
+                    reved "' then we sha . ll be mi . stresses of the east invention but that I was
+                    joking ; ut neverthele , I should have that female mgemuty ever discoverer Then
+                    shall the spoken n . othing but the naked truth. Long before the whole army of
+                    bachelors yield, and theqlorious com. revolutionary war-oh, she must have been
+                    older, for party of unmarried men be subdued. en shall our at that time she was
+                    the belle of Williamsburg, the sex be respected, admired, adored "' Her
+                    enthusiasm I toast of Norfolk and the barbecue of all that p p a art of was
+                    contagloua Miss Starch to of her drnity, and Virguua. Colonel H. whom Mrs. H.
+                    allows to be y- clapped her hands. Miss Ve on abso Ute y co- five years old,.
+                    told me that when a boy, his uncle. . Y . . .o d loured Miss Powdegmufl for the
+                    first time m her life, William H. of King and Queen, was near getting into
+                    showed her teeth an Miss Whalebone, to my aston- a duel on her account, with
+                    Mailer S. who died some ishment capered' about the mom like a frolic.some years
+                    ago, of old age- In fact,t ere is no telling how child. lout the secret was
+                    never discovery Miss B. old she was; her origin is not recorded. Like that
+                    always dressed and undressed within the bed-curtains. of the pyramids, it rests
+                    solely upon tradition. My good At last, the opinion was advanced by Dr. Brown,
+                    sir, she must have been more an seventy-five when that she changed her skin
+                    every ggtg. and that fur. y f II .l th h r. . . then mqu . uy was useless.Many
+                    ogfhtthis a ruseol 0 Ate1hennrllveeolYlhe °i4;"'° of Cornwallis, she wasrn the
+                    doctor's to keep his profession faith inviolate. love with "{°\=°§ mids man of
+                    the Bnush navy, by Be as he happens to be still alive l will say no more the
+                    name o Gim old, who made a narrow escape be upon that su jeer. 'He knows all
+                    about it' said Miss juxndng into James' river. Alter this, she remained
+                    Looking-glass, 'the vile wretch attended her through singe, m spite of various
+                    offers froru.several genera, her last sickness. But he is an old bachelor, what
+                    can dons omen, down to the present u . me. Many are you expect of lim 'I' the
+                    hearts and souls which, like Hajj Babe's, have Alas, poor Miss Betsey' she
+                    fought long and man- become roastmeat for her sake. But the citadel of fully
+                    against time, but the old yrant has conquered her her affections remained firm.
+                    In vain was the raw at last. Peace be to her sh es ' Ifever I go back recruit
+                    and the old veteran brought against to; the to Vir mia, I shall surely make a
+                    visit to the spot, to wall was closed up with the"English dead." Her see what
+                    the stonecutter has put upon. her tomb. I heart was in the bottom of James'
+                    river, with Thomas stone.- West. Monthly Meg.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

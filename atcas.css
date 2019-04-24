@@ -1,0 +1,81 @@
+
+body {font-family: "Comic Sans", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+p {
+font-family: "Comic Sans";
+color: black;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+.ednote {
+    position: relative;
+    display: inline-block;
+    border-bottom: 5px dotted black;
+}
+
+.ednote .ednotetext {
+    visibility: hidden;
+    width: 180px;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
+    background-color: gray;
+    color: #fff; 
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px 3px;
+    position: absolute;
+    z-index: 4;
+}
+
+.ednote:hover .ednotetext {
+    visibility: visible;
+}
+
+div {
+  display:block;
+  border:solid 1px #A3A3A3;
+  padding: 10px;
+  margin: 20px;
+}
+  
+head {
+  display:inline;
+  font-style:italic;
+  color:green;
+  background-color: #E6E6E6;
+}
+
+div {
+
+}
+important {
+  display:inline;
+  font-weight:bold;
+  color:pink;
+  border:solid 1px #990000;
+}
+
+page {
+  display:block;
+  border:solid 2px #000000;
+  padding: 10px;
+  margin:10px;
+}
+pageNumber { 
+  display:block;
+  padding:5px;
+  border:solid 2px #336699;
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+
+
