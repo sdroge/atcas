@@ -61,6 +61,7 @@ This digital edition consummates with a piece of fiction encapsulating the ideal
     </teiHeader>
     <text>
         <body>
+            <div></div>
             <div type="poem" n="1">
                 <head type="title">To a Lady and Her Miniature</head>
 
@@ -79,7 +80,7 @@ This digital edition consummates with a piece of fiction encapsulating the ideal
                 <closer><signed>W. M.</signed></closer>
             </div>
             <pb facs="Medusa1.jpg"/>
-            <div type="story" n="1">
+            <div type="story">
                 <head type="title">Medusa.</head>
                 <p>An intelligent physician of Philadelphia<note type="editorial">Philadelphia,
                         Pennsylvania, United States</note> has furnished the best account of the
